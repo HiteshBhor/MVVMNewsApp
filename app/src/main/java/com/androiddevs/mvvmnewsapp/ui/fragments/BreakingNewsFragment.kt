@@ -17,6 +17,7 @@ import kotlinx.android.synthetic.main.fragment_breaking_news.*
 class BreakingNewsFragment: Fragment(R.layout.fragment_breaking_news) {
 
     lateinit var viewModel: NewsViewModel
+    val TAG = "BreakingNewsFragment"
     lateinit var newsAdapter: NewsAdapter
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
